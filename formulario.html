@@ -21,13 +21,26 @@
         A continuación se realizará un formulario para recoger su opinión acerca de su trabajo en los diferentes ámbitos informáticos en los que ha sido pioneros.
     </p>
     
-    <form>
-        <label for="nom">Nombre:<input></label> 
-        <!--  <input id="nom" type="text" /> -->
-        
-    </form>
+   
 
-    <input type="submit" value="Enviar" >
+    <form>
+        <p><label>Customer name: <input></label></p>
+        <p><label>Telephone: <input type=tel></label></p>
+        <p><label>Email address: <input type=email></label></p>
+        <fieldset>
+         <legend> Pizza Size </legend>
+         <p><label> <input type=radio name=size> Small </label></p>
+         <p><label> <input type=radio name=size> Medium </label></p>
+         <p><label> <input type=radio name=size> Large </label></p>
+        </fieldset>
+        <fieldset>
+         <legend> Pizza Toppings </legend>
+         <p><label> <input type=checkbox> Bacon </label></p>
+         <p><label> <input type=checkbox> Extra Cheese </label></p>
+         <p><label> <input type=checkbox> Onion </label></p>
+         <p><label> <input type=checkbox> Mushroom </label></p>
+        </fieldset>
+       </form>
 
 
 	<footer>
