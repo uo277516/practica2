@@ -23,20 +23,44 @@
     
    
 
-    <form>
+    <form name="Opinión de Alan Kay">
         <fieldset>
-  <legend> Pizza Size </legend>
-  <p><label> <input type=radio name=size> Small </label></p>
-  <p><label> <input type=radio name=size> Medium </label></p>
-  <p><label> <input type=radio name=size> Large </label></p>
- </fieldset>
-    </form>
-
-
-	<footer>
-      <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
-      <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
-    </footer>
+            <legend>¿Conocías a Alan Kay?</legend>
+                <input id="conocer Si" type="radio" value="Sí" name="conocer">
+                <label for="conocer Si">Sí</label><br />
+                <input id="conocer No" type="radio" value="No" name="conocer" checked>
+                <label for="conocer No"›No</label><br />
+        </fieldset>
+        <fieldset>
+            <legend>¿Se lo recomendarías a algún conocido?</legend>
+                <input id="recomendar Si" type="radio" value="Sí" name="recomendar" checked>
+                <label for="recomendar Si">Sí</label><br />
+                <input id="recomendar No" type="radio" value="No" name="recomendar">
+                <label for="recomendar No"›No</label><br />
+        </fieldset>
+        <fieldset>
+            <legend>¿Qué te ha parecido la información sobre Alan Kay?</legend>
+                <input id=" interesante" type="checkbox" name="info" value="interesante" checked/>
+                <label for="interesante">Interesante</label><br/>
+                <input id=" importante" type="checkbox" name=" info" value=" importante" />
+                <label for=" importante">Importante</label><br />
+                <input id="aburrida" type="checkbox" name=" info" value="aburrida" />
+                <label for="aburrida">Aburrida</label><br/>
+                <input id="ya la conocia" type="checkbox" name=" info" value="ya la conocia" />
+                <label for="ya la conocia">Ya la conocía</label>
+        </fieldset>
+        
+        <label for="resultado"›Registra tu resultado</label><br />
+            <label for="fname">Nombre:</label><br/>
+            <input id="fname" type="text" ><br/>
+            <label for="fapellidos">Apellidos:</label><br />
+            <input id="fapellidos" type="text"><br/>
+            <label for="fnacimiento">Fecha de nacimiento: </label><br />
+            <input id="fnacimiento" type="date"><br/>
+            <label for="femail">Email:</label><br />
+            <input id="femail" type="email"><br/>
+            <input id="submit" type="submit" value="Envia tu resultado">
+</form>
 
 </body>
 </html>
