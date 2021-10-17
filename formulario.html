@@ -20,44 +20,46 @@
 
     <form name="Opinión de Alan Kay">
         <fieldset>
-            <legend>¿Conocías a Alan Kay?</legend>
-                <input id="conocerSi" type="radio" value="Sí" name="conocer">
+            <legend>¿Conocías al informático Alan Kay?</legend>
+                <input id="conocerSi" type="radio" value="Sí" name="conocer" checked>
                 <label for="conocerSi">Sí</label><br />
-                <input id="conocerNo" type="radio" value="No" name="conocer" checked>
+                <input id="conocerNo" type="radio" value="No" name="conocer">
                 <label for="conocerNo">No</label><br />
+                <input id="conocerMedio" type="radio" value="Había oído al hablar" name="conocer">
+                <label for="conocerMedio">Había oído al hablar</label><br />
         </fieldset>
 
         <fieldset>
-            <legend>¿Se lo recomendarías a algún conocido?</legend>
-                <input id="recomendarSi" type="radio" value="Sí" name="recomendar" checked>
-                <label for="recomendarSi">Sí</label><br />
-                <input id="recomendarNo" type="radio" value="No" name="recomendar">
-                <label for="recomendarNo">No</label><br />
+            <legend>¿Tienes algún conocimiento de informática?</legend>
+                <input id="conoSi" type="radio" value="Sí" name="cono" checked>
+                <label for="conoSi">Sí</label><br />
+                <input id="conoNo" type="radio" value="No" name="cono">
+                <label for="conoNo">No</label><br />
         </fieldset>
 
         <fieldset>
-            <legend>¿Qué te ha parecido la información sobre Alan Kay?</legend>
-                <input id="interesante" type="checkbox" name="info" value="interesante" checked/>
-                <label for="interesante">Interesante</label><br />
-                <input id="importante" type="checkbox" name="info" value="importante" />
-                <label for="importante">Importante</label><br />
-                <input id="aburrida" type="checkbox" name="info" value="aburrida" />
-                <label for="aburrida">Aburrida</label><br />
-                <input id="yalaconocia" type="checkbox" name="info" value="ya la conocia" />
-                <label for="yalaconocia">Ya la conocía</label>
+            <legend>¿Cuáles de los siguientes lenguajes manejas?</legend>
+                <input id="Java" type="checkbox" name="info" value="Java" checked/>
+                <label for="Java">Java</label><br />
+                <input id="Python" type="checkbox" name="info" value="Python" />
+                <label for="Python">Python</label><br />
+                <input id="C++" type="checkbox" name="info" value="C++" />
+                <label for="C++">C++</label><br />
+                <input id="R" type="checkbox" name="info" value="R" />
+                <label for="R">R</label>
         </fieldset>
 
         <fieldset>
-            <legend>Registra tu resultado</legend>
-            <input id="fname" type="text" >
-            <label for="fname">Nombre</label><br />
-            <input id="fapellidos" type="text" >
-            <label for="fapellidos">Apellidos</label><br />
-            <input id="fnacimiento" type="date">
-            <label for="fnacimiento">Fecha de nacimiento</label><br />
-            <input id="femail" type="email">
-            <label for="femail">Email</label><br />
-            <input id="submit" type="submit" value="Envia tu resultado">
+            <legend>Registra tus datos</legend>
+            <input id="nombre" type="text" >
+            <label for="nombre">Nombre</label><br />
+            <input id="apellidos" type="text" >
+            <label for="apellidos">Apellidos</label><br />
+            <input id="nacimiento" type="date">
+            <label for="nacimiento">Fecha de nacimiento</label><br />
+            <input id="email" type="email">
+            <label for="email">Email</label><br />
+            <input id="submit" type="submit" value="Envia tu opinión">
         </fieldset>
     </form>
 
