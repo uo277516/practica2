@@ -1,68 +1,63 @@
 <!DOCTYPE HTML>
 
 <html lang="es">
-<head>
-    <!-- Datos que describen el documento -->
-    <meta charset="UTF-8" />
-    <meta name="author" content="Natalia Fernández Riego" />
-    <meta name="keywords" content="formulario, Alan, opinion" />
-    <meta name="description" content="Esta página web está dedicada a realizar un formulario sobre Alan Kay" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Tania Bajo García" />
+        <meta name="description" content="Opinión de Alan Kay" />
+        <meta name="keywords" content="alan,kay,opinión" />
+        <title>Opinión de Alan Kay</title>
+        <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    </head>
 
-    <title>Alan Kay</title>
-	<!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
-	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
-</head>
+    <body>
+        <!-- Opinión -->
+        <h1>Opinión de Alan Kay</h1>
+        <form name="Opinión de Alan Kay">
+            <fieldset>
+                <legend>¿Conocías a Alan Kay?</legend>
+                    <input id="conocerSi" type="radio" value="Sí" name="conocer">
+                    <label for="conocerSi">Sí</label><br />
+                    <input id="conocerNo" type="radio" value="No" name="conocer" checked>
+                    <label for="conocerNo">No</label><br />
+            </fieldset>
 
-<body>
-    <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1> Formulario sobre Alan Kay </h1>
-    <p>
-        A continuación se realizará un formulario para recoger su opinión acerca de su trabajo en los diferentes ámbitos informáticos en los que ha sido pioneros.
-    </p>
-    
-   
+            <fieldset>
+                <legend>¿Se lo recomendarías a algún conocido?</legend>
+                    <input id="recomendarSi" type="radio" value="Sí" name="recomendar" checked>
+                    <label for="recomendarSi">Sí</label><br />
+                    <input id="recomendarNo" type="radio" value="No" name="recomendar">
+                    <label for="recomendarNo">No</label><br />
+            </fieldset>
 
-    <form name="Opinión de Alan Kay">
-        <fieldset>
-            <legend>¿Conocías a Alan Kay?</legend>
-                <input id="conocer Si" type="radio" value="Sí" name="conocer" checked>
-                <label for="conocer Si">Sí</label><br />
-                <input id="conocer No" type="radio" value="No" name="conocer">
-                <label for="conocer No">No</label><br />
-                
-        </fieldset>
-        <fieldset>
-            <legend>¿Se lo recomendarías a algún conocido?</legend>
-                <input id="recomendar Si" type="radio" value="Sí" name="recomendar" checked>
-                <label for="recomendar Si">Sí</label><br />
-                <input id="recomendar No" type="radio" value="No" name="recomendar">
-                <label for="recomendar No">No</label><br />
-        </fieldset>
-        <fieldset>
-            <legend>¿Qué te ha parecido la información sobre Alan Kay?</legend>
-                <input id=" interesante" type="checkbox" name="info" value="interesante" checked/>
-                <label for="interesante">Interesante</label><br/>
-                <input id=" importante" type="checkbox" name=" info" value=" importante" />
-                <label for=" importante">Importante</label><br />
-                <input id="aburrida" type="checkbox" name=" info" value="aburrida" />
-                <label for="aburrida">Aburrida</label><br/>
-                <input id="ya la conocia" type="checkbox" name=" info" value="ya la conocia" />
-                <label for="ya la conocia">Ya la conocía</label>
-        </fieldset>
+            <fieldset>
+                <legend>¿Qué te ha parecido la información sobre Alan Kay?</legend>
+                    <input id="interesante" type="checkbox" name="info" value="interesante" checked/>
+                    <label for="interesante">Interesante</label><br />
+                    <input id="importante" type="checkbox" name="info" value="importante" />
+                    <label for="importante">Importante</label><br />
+                    <input id="aburrida" type="checkbox" name="info" value="aburrida" />
+                    <label for="aburrida">Aburrida</label><br />
+                    <input id="yalaconocia" type="checkbox" name="info" value="ya la conocia" />
+                    <label for="yalaconocia">Ya la conocía</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Registra tu resultado</legend>
+                <input id="fname" type="text" >
+                <label for="fname">Nombre</label><br />
+                <input id="fapellidos" type="text" >
+                <label for="fapellidos">Apellidos</label><br />
+                <input id="fnacimiento" type="date">
+                <label for="fnacimiento">Fecha de nacimiento</label><br />
+                <input id="femail" type="email">
+                <label for="femail">Email</label><br />
+                <input id="submit" type="submit" value="Envia tu resultado">
+                <label for="op" type="text"></label>
+            </fieldset>
+        </form>
+
         
-        
-            <label for="fname">Nombre:</label>
-            <input id="fname" type="text" ><br />
-            <label for="fapellidos">Apellidos:</label>
-            <input id="fapellidos" type="text"><br />
-            <label for="fnacimiento">Fecha de nacimiento: </label>
-            <input id="fnacimiento" type="date"><br />
-            <label for="femail">Email:</label>
-            <input id="femail" type="email"><br />
-
-            <input id="submit" type="submit" value="Envia tu resultado">
-</form>
-
-</body>
+    </body>
 </html>
