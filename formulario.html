@@ -12,12 +12,25 @@
     <title>Alan Kay</title>
 	<!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
 	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estruct_formulario.css" />
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Opinión de Alan Kay</h1>
+    <header>
+        <h1>Alan Kay</h1>
+        <h2>Opinión de Alan Kay</h2>
+       
+            <nav>
+                <a title="Biografía de Alan Kay" tabindex= "1" href= "index.html" accesskey="B">Biografía</a>
+                <a title="Premios de Alan Kay" tabindex= "2" href= "premios.html" accesskey="P">Premios</a>
+                <a title="Aportaciones de Alan Kay" tabindex= "3" href="trabajos.html" accesskey="A">Aportaciones</a>
+            </nav>
+        
+        <p>A continuación, rellene el siguiente formulario sobre el informático estadounidense: </p>
+    </header>
 
+    <main>
     <form name="Opinión de Alan Kay">
         <fieldset>
             <legend>¿Conocías al informático Alan Kay?</legend>
@@ -62,12 +75,19 @@
             <input id="submit" type="submit" value="Envia tu opinión">
         </fieldset>
     </form>
+</main>
 
-<nav>
-    <a title="Biografía de Alan Kay" tabindex= "1" href= "index.html" accesskey="B">Biografía</a>
-    <a title="Premios de Alan Kay" tabindex= "2" href= "premios.html" accesskey="P">Premios</a>
-    <a title="Aportaciones de Alan Kay" tabindex= "3" href="trabajos.html" accesskey="A">Aportaciones</a>
-</nav>
+<aside>
+    <img src="multimedia/alan3jpg.jpg" alt="Alan Kay en su juventud" width="400" height="450"/>
+</aside>
+
+
+
+<footer>
+    <h4>"La mejor forma de predecir el futuro es inventarlo".</h4>
+    <img src="multimedia/HTML5.png" alt="HTML5 Válido!" />
+    <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
+</footer>
 
 </body>
 </html>
