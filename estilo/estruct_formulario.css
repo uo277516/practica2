@@ -15,6 +15,7 @@ header {
 }
 
 aside {
+    margin-top: 20%;
     grid-area: text;
 }
 
