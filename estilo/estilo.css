@@ -6,8 +6,8 @@ body {
 
 
 input {
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 p{
@@ -84,13 +84,23 @@ th, tr, td {
   color:black;
   margin: 5%;
   padding: 7px 7px;
+  font-size: 110%;
 }
 
-ul,li {
+ul {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   background: white;
   color:black;
+  font-size: 140%;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: white;
+  color:black;
+  font-size: 140%;
 }
 
 img, video, audio{
@@ -116,5 +126,6 @@ form {
   line-height: 1.5;
   background: white;
   color:black;
+  font-size: 140%;
 }
 
