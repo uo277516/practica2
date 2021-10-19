@@ -1,0 +1,131 @@
+
+body {
+  color: black;
+  background-color: #FFFFFF;
+}
+
+
+input {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background:white;
+    text-align: start;
+    color:black;
+    margin: 2%;
+    padding: 25px 25px;
+    font-size: 140%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: expanded;
+  font-style: normal;
+  color: black;
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;
+  line-height: 1.5px;
+}
+h1 {
+  background-color: #1e9bd4; 
+  font-size: xx-large;
+  font-weight: 900;
+}
+h2 {
+  background-color:lightblue;
+  font-size: x-large;
+  font-weight: 800;
+}
+h3{
+  background-color:lightblue;
+  font-size: large;
+  font-weight: 700;
+}
+h4{
+  background-color:lightgrey;
+  font-size: medium;
+  font-weight: 700;
+}
+h5{
+  background-color:lightgrey;
+  font-size: small;
+  font-weight: 700;
+}
+h6{
+  background-color:white;
+  font-size: xx-small;
+  font-weight: 100;
+}
+
+nav{
+  font-size: large;
+  text-align: left;
+  padding: 10px 10px;
+}
+
+caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 180%;
+}
+
+th, tr, td {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: lightgray;
+  color:black;
+  margin: 5%;
+  padding: 7px 7px;
+  font-size: 110%;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: white;
+  color:black;
+  font-size: 140%;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: white;
+  color:black;
+  font-size: 140%;
+}
+
+img, video, audio{
+  display: block;
+  margin: auto;
+}
+  
+a:link{
+  font-size: 140%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color:blue;
+  background-color: white;
+}
+  
+a:visited{
+  color:mediumvioletred;
+  background-color: white;
+}
+
+form {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: white;
+  color:black;
+  font-size: 140%;
+}
+
