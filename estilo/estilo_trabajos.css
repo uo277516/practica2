@@ -64,7 +64,7 @@ h6{
 }
 
 nav{
-  font-size: large;
+  font-size: 30px;
   text-align: left;
   padding: 10px 10px;
 }
@@ -78,7 +78,7 @@ caption {
   font-size: 180%;
 }
 
-th, tr {
+th, tr,td {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   background: lightgray;
@@ -88,24 +88,7 @@ th, tr {
   font-size: 110%;
 }
 
-td {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  background: lightgray;
-  color:black;
-  margin: 5%;
-  padding: 7px 7px;
-  font-size: 100px;
-  
-}
 
-ul {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  background: white;
-  color:black;
-  font-size: 140%;
-}
 
 ul {
   font-family: Arial, Helvetica, sans-serif;
