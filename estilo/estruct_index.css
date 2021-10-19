@@ -7,7 +7,7 @@ body {
                          'foot foot';
     grid-gap: 10px;
     grid-template-rows: 300px 1fr 30px;
-    grid-template-columns: 1fr 500px ;
+    grid-template-columns: 1fr 600px ;
 }
 
 header {
